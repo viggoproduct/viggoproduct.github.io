@@ -1,0 +1,195 @@
+/*
+Template Name: Wrapkit
+Author: Wrappixel
+Email: niravjoshi87@gmail.com
+File: scss
+*/
+
+
+/*============================================================== 
+ You can write your style here and overwrite our style
+ ============================================================== */
+
+
+/*******************
+Header 13
+*******************/
+
+.header13 .h13-nav {
+    padding: 15px 0;
+}
+
+.header13 .h13-nav .call-info {
+    padding-left: 20px;
+    border-left: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.header13 .h13-nav .navbar-nav .nav-item .nav-link {
+    color: #8d97ad;
+    padding: 10px 15px;
+    display: block;
+}
+
+.header13 .h13-nav .navbar-nav .nav-item:hover .nav-link,
+.header13 .h13-nav .navbar-nav .nav-item.active .nav-link {
+    color: #ff4d7e;
+}
+
+.header13 .h13-nav .navbar-nav .nav-item:last-child {
+    margin-left: 10px;
+}
+
+.header13 .h13-topbar {
+    border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.header13 .h13-topbar .navbar-brand {
+    font-size: 14px;
+    color: #188ef4;
+    padding: 15px 0;
+}
+
+.header13 .h13-topbar .navbar {
+    padding: 0;
+}
+
+.header13 .h13-topbar .navbar .search-box {
+    padding: 15px;
+    width: 240px;
+}
+
+.header13 .h13-topbar .navbar .nav-item .nav-link {
+    color: #8d97ad;
+    padding: 15px 20px;
+}
+
+.header13 .h13-topbar .navbar .nav-item .nav-link:first-child {
+    padding-left: 0px;
+}
+
+.header13 .h13-topbar .navbar .nav-item:hover .nav-link {
+    color: #ff4d7e;
+}
+
+
+/*******************
+Static slide 3
+*******************/
+
+.static-slider3 {
+    padding: 10% 0;
+}
+
+.static-slider3 h1 {
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.static-slider3 h1 span {
+    border-bottom: 3px solid #333;
+}
+
+@media (max-width: 767px) {
+    .static-slider3 h1 {
+        line-height: 30px;
+        font-size: 24px;
+    }
+}
+
+.wrap-feature-24 {
+    margin-top: 60px;
+}
+
+.wrap-feature-24 .card {
+    overflow: hidden;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+}
+
+.wrap-feature-24 .card:hover {
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
+
+.wrap-feature-24 .service-24 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.wrap-feature-24 .service-24 i {
+    background: #333;
+    background: -webkit-linear-gradient(legacy-direction(to right), #333 0%, #333 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#333), to(#333));
+    background: -webkit-linear-gradient(left, #333 0%, #333 100%);
+    background: -o-linear-gradient(left, #333 0%, #333 100%);
+    background: linear-gradient(to right, #333 0%, #333 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.wrap-feature-24 .service-24 .ser-title {
+    margin: 10px 0 5px;
+    font-weight: 500;
+}
+
+.wrap-feature-24 .service-24:hover,
+.wrap-feature-24 .service-24:focus {
+    background: #ffffff;
+    background: -webkit-linear-gradient(legacy-direction(to right), ##ffffff 0%, ##ffffff 100%);
+    background: -webkit-gradient(linear, left top, right top, from(##ffffff), to(##ffffff));
+    background: -webkit-linear-gradient(left, ##ffffff 0%, ##ffffff 100%);
+    background: -o-linear-gradient(left, ##ffffff 0%, ##ffffff 100%);
+    background: linear-gradient(to right, ##ffffff 0%, ##ffffff 100%);
+}
+
+.wrap-feature-24 .service-24:hover i,
+.wrap-feature-24 .service-24:hover .ser-title,
+.wrap-feature-24 .service-24:focus i,
+.wrap-feature-24 .service-24:focus .ser-title {
+    color: #333333;
+    text-fill-color: #333333;
+    -webkit-text-fill-color: #333333;
+}
+
+.wrap-feature-24 .service-24:hover i,
+.wrap-feature-24 .service-24:focus i {
+    margin-bottom: 5px;
+}
+
+.static-slider1 {
+    h1 {
+        font-weight: 700;
+        line-height: 56px;
+        span {
+            border-bottom: 3px solid $success;
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .static-slider1 {
+        h1 {
+            font-weight: 700;
+            line-height: 36px;
+            font-size: 24px;
+        }
+    }
+}
+
+
+.subtitle-text{
+  margin: 20px;
+      color: #8d97ad;
+    line-height: 24px;
+}
+.product-logo{
+
+    height: 60px;
+}
