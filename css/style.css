@@ -239,7 +239,7 @@ a:focus {
 a.link {
   color: #3e4555; }
   a.link:hover, a.link:focus {
-    color: #07d79c; }
+    color: #999; }
 
 a.white-link {
   color: #ffffff; }
@@ -2721,7 +2721,7 @@ Footer 4
   height: 34px;
   line-height: 34px; }
   .footer4 .round-social.light a:hover {
-    background: #188ef4; }
+    background: #000; }
 
 /*******************
 Modal in center

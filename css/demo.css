@@ -31,10 +31,11 @@ Header 1
     margin: 0 20px; }
     .h1-nav .navbar-nav .nav-item .nav-link {
       padding: 12px 0px;
-      color: #8d97ad;
-      font-weight: 400; }
+      color: #666;
+      font-weight: 600; 
+      text-transform: uppercase;}
     .h1-nav .navbar-nav .nav-item:hover .nav-link {
-      color: #07d79c; }
+      color: #000; }
     .h1-nav .navbar-nav .nav-item:last-child {
       margin-right: 0px; }
 
@@ -102,3 +103,7 @@ footer .round-social a {
   line-height: 40px; }
   footer .round-social a:hover {
     color: #ffffff; }
+
+.text-active{
+  color: #000;
+}
