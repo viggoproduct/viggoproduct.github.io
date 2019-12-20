@@ -186,8 +186,9 @@ Static slide 3
 
 .subtitle-text{
   margin: 20px;
-      color: #8d97ad;
+      color: #666666;
     line-height: 24px;
+    font-weight: 100;
 }
 .product-logo{
 
