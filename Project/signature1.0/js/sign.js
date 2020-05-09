@@ -18,7 +18,7 @@ Vue.filter('formatOfficeNo', function(val) {
     if (val) {
         if (val.indexOf('-') !== -1) return val;
         var num = val ? val : '1234';
-        return '0755-32995555-' + num;
+        return '(020）81167888-' + num;
     }
 });
 
@@ -77,17 +77,17 @@ var sign = new Vue({
         },
         style: {
             logo: '',
-            co_title: '#000000',
-            co_item: '#999999',
+            co_title: '#ffffff',
+            co_item: '#ffffff',
             co_icon: '#648fe7',
-            co_bg:'#eeeeee',
+            co_bg:'#003cf0',
             co_line: '#000050'
         },
         cropper: null,
         flag: {
             isPC: false,
             showBowserUnsupport: false,
-            needLoadSign: false,
+            needLoadSign: false,    
             showColorSetting: false,
             imgHasLoad: false,
             cropperHasInit: false,
@@ -125,7 +125,7 @@ var sign = new Vue({
             var thisObj = this;
              thisObj.style = {
                 co_title: '#000000',
-                co_item: '#999999',
+                co_item: '#666666',
                 co_icon: '#648fe7',
                 co_bg:'#eeeeee',
                 co_line: '#000050'
