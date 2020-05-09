@@ -16,6 +16,8 @@
 </head>
 
 <body id="app">
+
+
     <!--  <div class="icon" style="display:none;">
         <img src="https://misc.aotu.io/Tingglelaoo/O2-icon.png" >
     </div> -->
@@ -41,6 +43,12 @@
                 <div class="title">
                     <h2>邮箱签名设计</h2>
                     <small>你的邮箱还缺一个个性名片吗? 马上输入个人信息</small><small>一键生成，让你的每封邮件都与众不同</small>
+                    <p style="color: #12f333;">    TODO:
+                            1. 左侧添加选择签名主题
+                            2. 签名预览添加仿真邮件样式
+                            3. 头像和二维码Hover状态可以显示替换头像
+                            4. 用户头像拉企业微信的默认头像（https://r.hrc.oa.com/photo/500/viggozhang.png）
+                    </p>
                 </div>
             </div>
         </div>
@@ -205,45 +213,7 @@
             </br>
             </br>
             <!-- S preview -->
-            <div class="o2_box">
-                <span class="o2_box_type">预览二</span>
-                <!-- <span class="o2_color_setting" title="配色设置" v-on:click="flag.showColorSetting = !flag.showColorSetting">配色</span> -->
-                <div class="o2_sign" id="sign" :style="{ backgroundColor:style.co_bg }">
-                    <div class="logo">
-                        <img src="./img/avator_default.png" alt="logo">
-                    </div>
-                    <!-- <div class="line" :style="{ backgroundColor:style.co_line }"></div> -->
-                    <div class="info">
-                        <div class="title" :style="{ color:style.co_title }">
-                            <p class="e_name" v-text="info.e_name? info.e_name : 'NAME'"></p>
-                            <p class="c_name" v-text="info.c_name ? info.c_name:'姓名'"></p>
-                            <!-- <div class="hr" :style="{ backgroundColor:style.co_title }"></div> -->
-                            <!-- <p class="group" v-text="info.group ? info.group:'所属部门'"></p> -->
-                        </div>
-                        <div class="contact" :style="{ color: style.co_item }">
-                            <p style=" padding-bottom: 5px;" class="group" v-text="info.group ? info.group:'无线安全产品部 | 设计中心 | 视觉设计'"></p>
-                        </div>
-                        <div class="contact" :style="{ color: style.co_item}">
-                            <div class="item">
-                                <!-- <i class="icon-mobile mobile" :style="{ color:style.co_icon }"></i>  -->
-                                Mobile: <p v-text="(info.contact.phone?info.contact.phone:'123-4567-8901') | formatTelNo "></p>
-                            </div>
-                            <div class="item">
-                                <!-- <i class="icon-call call" :style="{ color:style.co_icon }"></i> -->
-                                Tel: <p v-text="(info.contact.call?info.contact.call:'000000') | formatOfficeNo"></p>
-                            </div>
-                            <div class="item">
-                                <!-- <i class="icon-qq qq" :style="{ color:style.co_icon }"></i> -->
-                                <!-- <p v-text="info.contact.qq ? info.contact.qq:'your QQ'"></p> -->
-                            </div>
-                            <div class="item">
-                                <!-- <i class="icon-wechat wechat" :style="{ color:style.co_icon }"></i> -->
-                                <!-- <p v-text="info.contact.wechat ? info.contact.wechat:'your wechat'"></p> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
             </br>
             <div class="o2_form_row">
                 <div class="o2_btns btn_download">
