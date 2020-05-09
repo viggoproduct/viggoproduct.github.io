@@ -343,6 +343,8 @@ body {
 }
 .o2_main_left{
 	 position: fixed;
+
+     width: 700px;
     /*top: 50%;*/
     left: 10%;
     margin-top: -605px;
@@ -584,8 +586,8 @@ body {
 }
 
 .o2_content {
-    width: 660px;
-    overflow: hidden
+    width: 340px;
+    /*overflow: hidden*/
 }
 
 .o2_content .o2_content_slider {
@@ -614,7 +616,7 @@ input::-webkit-input-placeholder {
 
 .o2_form .o2_form_row {
     /*float: left;*/
-    width: 50%;
+    /*width: 50%;*/
     padding: 0 60px;
     margin-bottom: 15px
 }
